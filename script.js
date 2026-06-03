@@ -17,7 +17,7 @@ const winPatterns = [
   [2, 4, 6],
   [3, 4, 5],
   [6, 7, 8]
-]
+];
 
 //when user clicked button
 boxes.forEach((box) => {
@@ -62,9 +62,11 @@ const checkWinner = () => {
     if (pos1Val !== "" && pos2Val !== "" && pos3Val !== "") {
       if (pos1Val === pos2Val && pos2Val === pos3Val) {
         showWinner(pos1Val);
-      } 
+        return true;
+      }
     }
   }
+  return false;
 };
 
 const boxDisabled = () => {
