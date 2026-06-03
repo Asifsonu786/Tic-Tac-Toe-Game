@@ -99,7 +99,7 @@ Displayed when all cells are filled and no player wins.
 
 ## 👨‍💻 Author
 
-**Asif Sonu**
+**Muhammad Asif**
 
 Feel free to fork this project, suggest improvements, or contribute.
 
